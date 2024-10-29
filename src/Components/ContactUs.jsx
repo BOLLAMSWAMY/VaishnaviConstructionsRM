@@ -150,31 +150,16 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="sectionOne-right">
-          <div className="locate">
-            <img src={location} alt="" />
-            <div
-              style={{
-                backgroundColor: "#ffffff80",
-                color: "black",
-                padding: "10px",
-                borderRadius: "5px",
-              }}
-            >
-              844 W Orange Ave, South San Francisco, CA 94080, United States
-            </div>
-          </div>
+          
+            {/* <img src={location} alt="" /> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2214.7513476600693!2d78.4464264532082!3d17.428040666949716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI1JzQwLjgiTiA3OMKwMjYnNDcuMiJF!5e0!3m2!1sen!2sin!4v1730203456265!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
         </div>
       </div>
 
       <div className="sectionTwo">
         <div className="sectionTwo-left">
-          <img
-            src={Map}
-            alt=""
-            width={800}
-            height={600}
-            style={{ objectFit: "cover" }}
-          />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2214.7513476600693!2d78.4464264532082!3d17.428040666949716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI1JzQwLjgiTiA3OMKwMjYnNDcuMiJF!5e0!3m2!1sen!2sin!4v1730203456265!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className="sectionTwo-right">
           <div style={{ width: "80%", margin: "auto" }}>

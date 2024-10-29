@@ -3,9 +3,10 @@
     width: 80%;
     top: 10%;
   }
-  .home-hero {
+  .home-hero, .home-hero1, .home-hero2 {
     height: 650px;
   }
+  
   .home-desc h2 {
     font-family: Kumbh Sans;
     font-size: 26px;

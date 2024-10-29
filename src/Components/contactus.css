@@ -88,8 +88,12 @@ opacity: 0px;
     position: relative;
     width: 50%;
     height: 100%;
-    background-image: url('../assets/contactMap.png');
+    /* background-image: url('../assets/contactMap.png'); */
     border: 1px solid #ffffff75;
+  }
+  .sectionOne-right iframe{
+    width: 100%;
+    height: 100%;
   }
   .locate{
     position: absolute;

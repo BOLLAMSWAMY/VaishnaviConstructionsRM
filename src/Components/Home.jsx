@@ -32,12 +32,12 @@ import './HomeMediaQueries.css'
 function Home() {
 
   let [activeItem,setActiveItem]=useState('Premiere Mix')
-let [index,setIndex] = useState(1)
+let [index,setIndex] = useState(0)
 useEffect(() => {
   const interval = setInterval(() => {
     console.log(index);
     setIndex((prevIndex) => (prevIndex + 1)%4); // Cycle through 0, 1, 2, 3
-  }, 1000);
+  }, 3000);
 
   return () => clearInterval(interval);
 }, [index]);

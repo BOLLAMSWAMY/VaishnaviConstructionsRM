@@ -58,7 +58,7 @@ useEffect(() => {
         <img src={isoImg} alt="" />
       </div>
 <div className='enquire'>
-  <p>Enquire Now</p>
+  <Link to={'/contactus'}>Enquire Now</Link>
 </div>
 
     <div className='whatsapp'>
@@ -66,67 +66,13 @@ useEffect(() => {
 
     </div>
 
-      <div className="contact-home">
+      {/* <div className="contact-home">
         <input type="text" placeholder='Name'/> 
         <input type="tel" placeholder='Phone' /> 
         <input type="email" placeholder='Email' /> 
         <button>Submit <i className='fa-solid fa-right-long ms-2'></i></button>
-      </div>
+      </div> */}
     </div>
-
-    {/* <div className={index === 1 ? 'home-hero1 d-block':'d-none'}>
-      <div className='home-desc'>
-        <h2>Specialty concrete solutions 
-        for the most demanding projects</h2>
-        <p>
-        RMC‘s full form is Ready Mixed Concrete. It is manufactured in a batching plant or factory according to the standard specifications that are required. After being prepared it is delivered to the construction location in two different ways.</p>
-      </div>
-      <div className="iso" >
-        <img src={isoImg} alt="" />
-      </div>
-<div className='enquire'>
-  <p>Enquire Now</p>
-</div>
-
-    <div className='whatsapp'>
-    <a href="https://wa.me/7093320405?text=I am interested in your Projects. I want to know more details."><img src={Whatsapp} alt="" /></a>
-
-    </div>
-
-      <div className="contact-home">
-        <input type="text" placeholder='Name'/> 
-        <input type="tel" placeholder='Phone' /> 
-        <input type="email" placeholder='Email' /> 
-        <button>Submit <i className='fa-solid fa-right-long ms-2'></i></button>
-      </div>
-    </div>
-
-    <div className={index === 3 ? 'home-hero2 d-block':'d-none'}>
-      <div className='home-desc'>
-        <h2>Specialty concrete solutions 
-        for the most demanding projects</h2>
-        <p>
-        RMC‘s full form is Ready Mixed Concrete. It is manufactured in a batching plant or factory according to the standard specifications that are required. After being prepared it is delivered to the construction location in two different ways.         </p>
-      </div>
-      <div className="iso" >
-        <img src={isoImg} alt="" />
-      </div>
-<div className='enquire'>
-  <p>Enquire Now</p>
-</div>
-
-    <div className='whatsapp'>
-    <a href="https://wa.me/7093320405?text=I am interested in your Projects. I want to know more details."><img src={Whatsapp} alt="" /></a>
-
-    </div>
-
-      <div className="contact-home">
-        <input type="text" placeholder='Name'/> 
-        <input type="tel" placeholder='Phone' /> 
-        <input type="email" placeholder='Email' /> 
-        <button>Submit <i className='fa-solid fa-right-long ms-2'></i></button>
-      </div>
-    </div> */}
 
 <div className="section-one">
   <div className="section-one-left">
